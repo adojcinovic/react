@@ -11,9 +11,8 @@ function App() {
   const [value, setValue] = useState(0)
   const [nekitext, setInput] = useState('')
 
-  const getInput = () => {
-    setInput(nekitext)
-    console.log(nekitext);
+  const getInput = (event) => {
+    setInput(event.target.value)
   }
 
   const increase = () => {

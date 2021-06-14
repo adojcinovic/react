@@ -9,7 +9,7 @@ function Header(props) {
             <input onChange={props.getText}></input>
             <button onClick={props.povecaj}>increase</button>
             <div>{props.value}</div>
-            <div>text:{props.input}</div>
+            <div>text: {props.input}</div>
         </div>
     )
 
